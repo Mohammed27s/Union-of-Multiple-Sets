@@ -1,0 +1,50 @@
+
+
+//Union of Multiple Sets
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class unionSets {
+
+    public static void main(String[] args){
+
+
+        Set<Integer> mainSet = new HashSet<>();
+
+        Set<Integer> set1 = new HashSet<>();
+
+        set1.add(2);
+        set1.add(3);
+        set1.add(4);
+
+        Set<Integer> set2 = new HashSet<>();
+        set2.add(10);
+        set2.add(11);
+        set2.add(12);
+
+
+        Set<Integer> set3 = new HashSet<>();
+        set3.add(20);
+        set3.add(21);
+        set3.add(22);
+
+
+        mainSet.addAll(set1);
+        mainSet.addAll(set2);
+        mainSet.addAll(set3);
+
+        System.out.println("(All unique elements combined in one set :  "+mainSet);
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
